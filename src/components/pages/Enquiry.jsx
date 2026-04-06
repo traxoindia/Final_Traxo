@@ -39,7 +39,7 @@ export default function Enquiry() {
 
       {/* Main Section */}
       <div className="max-w-7xl mx-auto py-12 px-4 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
-        
+
         {/* Contact Form */}
         <div className="md:col-span-2 bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
           <h2 className="text-2xl font-semibold mb-6 text-gray-800 border-b pb-2">
@@ -114,16 +114,17 @@ export default function Enquiry() {
             <div className="flex items-start gap-3">
               <FaMapMarkerAlt className="text-yellow-500 mt-1 text-lg" />
               <span className="text-sm leading-relaxed">
-                Plot No: 443/4516, ITI Chowk, Near RTO Office, Angargadia, Balasore, Odisha, 756001
+                ANGARGADIA, INDUSTRIAL AREA, Mallikashpur, Balasore, IN Front BCET ITI, Odisha 756001 Angargadia, Balasore, Odisha, 756001
+
               </span>
             </div>
             <div className="flex items-center gap-3">
-              <FaPhoneAlt className="text-yellow-500 text-lg" /> 
+              <FaPhoneAlt className="text-yellow-500 text-lg" />
               <span>+91-06782260196</span>
-               
+
             </div>
             <div className="flex items-center gap-3">
-              <FaEnvelope className="text-yellow-500 text-lg" /> 
+              <FaEnvelope className="text-yellow-500 text-lg" />
               <span>info@traxoindia.in</span>
             </div>
           </div>
@@ -132,7 +133,7 @@ export default function Enquiry() {
           <div className="mt-6">
             <iframe
               title="Traxo India Automation Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.865382623105!2d86.9146481!3d21.4865624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1cf5e58111e957%3A0xac1d422f1e8f6dc3!2sTRAXO%20INDIA%20AUTOMATION%20GPS%20MANUFACTURING%20COMPANY!5e0!3m2!1sen!2sin!4v1722856000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps?q=TRAXO+(INDIA)+AUTOMATION+PRIVATE+LIMITED&output=embed"
               width="100%"
               height="200"
               style={{ border: 0 }}

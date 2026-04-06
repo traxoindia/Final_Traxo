@@ -84,12 +84,19 @@ export default function Footer() {
           </h3>
           <ul className="space-y-3 text-sm">
             <li className="flex items-start gap-3">
-              <FaMapMarkerAlt className="text-yellow-500 mt-1" />
-              <span>
-                <strong>Manufacturing:</strong><br />
-                Plot No: 443/4516, ITI Chowk, Near RTO Office, Angargadia, Balasore, Odisha, 756001
-              </span>
-            </li>
+  <FaMapMarkerAlt className="text-yellow-500 mt-1" />
+  <span>
+    <strong>Manufacturing:</strong><br />
+    <a 
+      href="https://maps.app.goo.gl/CJePZ97CCirvUHrC9" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="hover:underline"
+    >
+      ANGARGADIA, INDUSTRIAL AREA, Mallikashpur, Balasore, IN Front BCET ITI, Odisha 756001 Angargadia, Balasore, Odisha, 756001
+    </a>
+  </span>
+</li>
             <li className="flex items-start gap-3">
               <FaMapMarkerAlt className="text-yellow-500 mt-1" />
               <span>
